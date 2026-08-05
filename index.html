@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A. Srinivas — Enterprise Architect specializing in Cloud, AI, and Digital Transformation. Book a consultation." />
+  <title>A. Srinivas · Enterprise Architect</title>
+
+  <!-- Preconnect for Google Fonts performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- =====================================================================
+       HEADER / NAV
+  ====================================================================== -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <span class="logo" aria-label="A. Srinivas">AS</span>
+      <nav aria-label="Primary navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#expertise" class="nav-link">Expertise</a>
+        <a
+          href="https://www.linkedin.com/in/a-srinivas-a7b07b104/"
+          class="nav-link nav-link--linkedin"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit A. Srinivas on LinkedIn (opens in new tab)"
+        >
+          LinkedIn ↗
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =====================================================================
+       HERO SECTION
+  ====================================================================== -->
+  <main id="main-content">
+    <section id="about" class="hero section" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+
+        <!-- Left: headshot -->
+        <div class="hero-photo-wrap" aria-hidden="true">
+          <div class="hero-photo-ring">
+            <img
+              id="headshot"
+              src="headshot.jpg"
+              alt="Portrait of A. Srinivas, Enterprise Architect"
+              class="hero-photo"
+              loading="lazy"
+              width="320"
+              height="320"
+            />
+          </div>
+        </div>
+
+        <!-- Right: copy + CTAs -->
+        <div class="hero-copy">
+          <p class="hero-eyebrow">Enterprise Architect</p>
+          <h1 id="hero-heading" class="hero-name">A. Srinivas</h1>
+          <p class="hero-lead">
+            I help organisations design resilient, cloud-native platforms and
+            translate complex technical strategy into measurable business outcomes.
+          </p>
+
+          <div class="hero-ctas">
+            <!-- Primary CTA: Consult toggle -->
+            <button
+              id="consult-btn"
+              class="btn btn--primary"
+              aria-expanded="false"
+              aria-controls="contact-panel"
+            >
+              Consult
+            </button>
+
+            <!-- Secondary CTA: LinkedIn -->
+            <a
+              href="https://www.linkedin.com/in/a-srinivas-a7b07b104"
+              class="btn btn--secondary"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Connect on LinkedIn (opens in new tab)"
+            >
+              LinkedIn ↗
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         STAT CARDS (infographics)
+    =================================================================== -->
+    <section id="expertise" class="stats section" aria-label="Key stats and expertise areas">
+      <div class="container stats-grid">
+
+        <article class="stat-card" aria-label="19 plus years of experience">
+          <div class="stat-icon" aria-hidden="true">⏱</div>
+          <p class="stat-number">19+</p>
+          <p class="stat-label">Years Experience</p>
+          <p class="stat-sub">Enterprise architecture &amp; delivery</p>
+        </article>
+
+        <article class="stat-card" aria-label="Cloud and AI specialisation">
+          <div class="stat-icon" aria-hidden="true">☁</div>
+          <p class="stat-number">Cloud · AI</p>
+          <p class="stat-label">Core Domains</p>
+          <p class="stat-sub">AWS · Azure · GCP · GenAI</p>
+        </article>
+
+        <article class="stat-card" aria-label="Workshops delivered">
+          <div class="stat-icon" aria-hidden="true">🎓</div>
+          <p class="stat-number">50+</p>
+          <p class="stat-label">Workshops</p>
+          <p class="stat-sub">Architecture reviews &amp; enablement</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         SKILLS
+    =================================================================== -->
+    <section class="skills section" aria-label="Skills and technologies">
+      <div class="container">
+        <h2 class="section-heading">What I work with</h2>
+        <ul class="chip-list" role="list">
+          <li class="chip">Enterprise Architecture</li>
+          <li class="chip">Cloud Strategy</li>
+          <li class="chip">AWS</li>
+          <li class="chip">Azure</li>
+          <li class="chip">GCP</li>
+          <li class="chip">AI / ML Platforms</li>
+          <li class="chip">Digital Transformation</li>
+          <li class="chip">Solution Design</li>
+          <li class="chip">TOGAF</li>
+          <li class="chip">Microservices</li>
+          <li class="chip">DevSecOps</li>
+          <li class="chip">Data Governance</li>
+          <li class="chip">API Strategy</li>
+          <li class="chip">Stakeholder Alignment</li>
+          <li class="chip">Technical Due Diligence</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         CONTACT PANEL (hidden until Consult is clicked)
+    =================================================================== -->
+    <section
+      id="contact-panel"
+      class="contact section"
+      aria-hidden="true"
+      aria-label="Contact and consultation form"
+    >
+      <div class="container contact-inner">
+
+        <div class="contact-intro">
+          <h2 class="section-heading">Let's talk architecture</h2>
+          <p class="contact-lead">
+            Whether you're evaluating a cloud migration, planning a platform
+            modernisation, or need an independent architecture review — I'm here
+            to help. Send a message or reach out directly.
+          </p>
+          <a
+            href="mailto:asrinivas.consulting@gmail.com"
+            class="contact-email"
+            aria-label="Email A. Srinivas directly"
+          >
+            contact.asrinivas.consulting@gmail.com
+          </a>
+
+          <!-- Mailto fallback button -->
+          <a
+            href="mailto:contact.asrinivas.consulting@gmail.com?subject=Consultation%20Request"
+            class="btn btn--outline"
+            aria-label="Open email client to contact A. Srinivas"
+          >
+            Open in Email Client
+          </a>
+        </div>
+
+        <!-- Formspree form -->
+        <form
+          id="contact-form"
+          class="contact-form"
+          action="https://formspree.io/f/YOUR_FORMSPREE_ID"
+          method="POST"
+          novalidate
+          aria-label="Consultation request form"
+        >
+          <!-- Hidden subject field for Formspree -->
+          <input type="hidden" name="_subject" value="Consultation Request via srinivas.consulting" />
+
+          <div class="form-group">
+            <label for="f-name" class="form-label">Your Name</label>
+            <input
+              type="text"
+              id="f-name"
+              name="name"
+              class="form-input"
+              placeholder="Jane Smith"
+              required
+              autocomplete="name"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="f-email" class="form-label">Email Address</label>
+            <input
+              type="email"
+              id="f-email"
+              name="email"
+              class="form-input"
+              placeholder="jane@example.com"
+              required
+              autocomplete="email"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="f-message" class="form-label">How can I help?</label>
+            <textarea
+              id="f-message"
+              name="message"
+              class="form-input form-textarea"
+              placeholder="Describe your challenge or project briefly…"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn--primary btn--full">
+              Send Message
+            </button>
+          </div>
+
+          <!-- Inline form status messages -->
+          <p id="form-success" class="form-status form-status--success" role="status" aria-live="polite" hidden>
+            Thanks! I'll be in touch within one business day.
+          </p>
+          <p id="form-error" class="form-status form-status--error" role="alert" aria-live="assertive" hidden>
+            Something went wrong. Please email me directly.
+          </p>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =====================================================================
+       FOOTER
+  ====================================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p class="footer-copy">
+        &copy; <span id="year"></span> A. Srinivas. All rights reserved.
+      </p>
+      <a
+        href="https://www.linkedin.com/in/a-srinivas-a7b07b104/"
+        class="footer-link"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="LinkedIn profile (opens in new tab)"
+      >
+        LinkedIn
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
