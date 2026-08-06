@@ -406,7 +406,7 @@ nav {
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: var(--space-6);
   align-items: start;
 }
@@ -779,7 +779,7 @@ nav {
   .hero-pills   { justify-content: center; }
   .hero-ctas    { justify-content: center; }
 
-  .services-grid  { grid-template-columns: 1fr; max-width: 520px; margin-inline: auto; }
+  .services-grid  { grid-template-columns: 1fr; }
   .contact-inner  { grid-template-columns: 1fr; }
 
   /* Process: widen to full width */
