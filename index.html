@@ -144,7 +144,39 @@
 
         <div class="services-grid">
 
-          <!-- ── Card 1: SMB Solutions ── -->
+          <!-- ── Card 1: Enterprise Freelance Consulting ── -->
+          <article id="svc-enterprise" class="svc-card" aria-labelledby="svc-enterprise-title">
+            <div class="svc-card__icon" aria-hidden="true">🏢</div>
+            <div class="svc-card__tag">For Enterprises &amp; Scale-ups</div>
+            <h3 id="svc-enterprise-title" class="svc-card__title">
+              Senior architecture capacity — without the headcount
+            </h3>
+            <p class="svc-card__body">
+              Hiring a full-time Principal Architect takes months and costs a full salary.
+              Engaging a consulting firm means layers of account management before any
+              real work happens. I plug in as a senior freelance architect — quickly,
+              directly, and with two decades of enterprise delivery behind every decision.
+            </p>
+            <ul class="svc-card__list" aria-label="Included in this service">
+              <li>Cloud &amp; platform strategy — roadmaps that survive board scrutiny</li>
+              <li>Architecture reviews, RFP evaluation &amp; vendor selection</li>
+              <li>GenAI &amp; agentic AI adoption — pragmatic, production-ready design</li>
+              <li>Team augmentation during peak delivery or digital transformation</li>
+              <li>CTO / CIO advisory — translating architecture into business language</li>
+            </ul>
+            <p class="svc-card__ideal">
+              <strong>Good fit:</strong> Mid-to-large enterprises, funded scale-ups, or
+              system integrators that need an experienced independent architect on a
+              project, retainer, or interim basis — without a long-term hire.
+            </p>
+            <button
+              class="btn btn--primary svc-cta"
+              data-service="Enterprise Consulting"
+              aria-controls="contact-panel"
+            >Discuss an engagement →</button>
+          </article>
+
+          <!-- ── Card 2: SMB Solutions ── -->
           <article id="svc-smb" class="svc-card" aria-labelledby="svc-smb-title">
             <div class="svc-card__icon" aria-hidden="true">🏪</div>
             <div class="svc-card__tag">For Small Businesses · India</div>
@@ -174,7 +206,7 @@
             >Discuss my business →</button>
           </article>
 
-          <!-- ── Card 2: On-Job Support ── -->
+          <!-- ── Card 3: On-Job Support ── -->
           <article id="svc-support" class="svc-card svc-card--featured" aria-labelledby="svc-support-title">
             <div class="svc-card__badge">Most Requested</div>
             <div class="svc-card__icon" aria-hidden="true">💻</div>
@@ -205,7 +237,7 @@
             >Get support →</button>
           </article>
 
-          <!-- ── Card 3: Training ── -->
+          <!-- ── Card 4: Training ── -->
           <article id="svc-training" class="svc-card" aria-labelledby="svc-training-title">
             <div class="svc-card__icon" aria-hidden="true">🚀</div>
             <div class="svc-card__tag">For Students &amp; Career Shifters ← Primary</div>
@@ -234,38 +266,6 @@
               data-service="Training & Career Shift"
               aria-controls="contact-panel"
             >Start learning →</button>
-          </article>
-
-          <!-- ── Card 4: Enterprise Freelance Consulting ── -->
-          <article id="svc-enterprise" class="svc-card" aria-labelledby="svc-enterprise-title">
-            <div class="svc-card__icon" aria-hidden="true">🏢</div>
-            <div class="svc-card__tag">For Enterprises &amp; Scale-ups</div>
-            <h3 id="svc-enterprise-title" class="svc-card__title">
-              Senior architecture capacity — without the headcount
-            </h3>
-            <p class="svc-card__body">
-              Hiring a full-time Principal Architect takes months and costs a full salary.
-              Engaging a consulting firm means layers of account management before any
-              real work happens. I plug in as a senior freelance architect — quickly,
-              directly, and with two decades of enterprise delivery behind every decision.
-            </p>
-            <ul class="svc-card__list" aria-label="Included in this service">
-              <li>Cloud &amp; platform strategy — roadmaps that survive board scrutiny</li>
-              <li>Architecture reviews, RFP evaluation &amp; vendor selection</li>
-              <li>GenAI &amp; agentic AI adoption — pragmatic, production-ready design</li>
-              <li>Team augmentation during peak delivery or digital transformation</li>
-              <li>CTO / CIO advisory — translating architecture into business language</li>
-            </ul>
-            <p class="svc-card__ideal">
-              <strong>Good fit:</strong> Mid-to-large enterprises, funded scale-ups, or
-              system integrators that need an experienced independent architect on a
-              project, retainer, or interim basis — without a long-term hire.
-            </p>
-            <button
-              class="btn btn--primary svc-cta"
-              data-service="Enterprise Consulting"
-              aria-controls="contact-panel"
-            >Discuss an engagement →</button>
           </article>
 
         </div><!-- /.services-grid -->
@@ -421,10 +421,10 @@
             <label for="f-service" class="form-label">I'm interested in…</label>
             <select id="f-service" name="service" class="form-input form-select" required>
               <option value="" disabled selected>Select a service</option>
+              <option value="Enterprise Consulting">Enterprise / Freelance Consulting</option>
               <option value="Small Business Solutions">Small Business Solutions</option>
               <option value="On-Job Support">On-Job Support for Professionals</option>
               <option value="Training & Career Shift">Training &amp; Career Shift</option>
-              <option value="Enterprise Consulting">Enterprise / Freelance Consulting</option>
               <option value="Not sure yet">Not sure yet — help me figure it out</option>
             </select>
           </div>
