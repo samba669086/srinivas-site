@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="A. Srinivas — Enterprise Architect specializing in Cloud, AI, and Digital Transformation. Book a consultation." />
-  <title>A. Srinivas · Enterprise Architect</title>
+  <meta name="description" content="A. Srinivas — Enterprise Architect. Cloud solutions for small businesses, on-the-job support for working professionals, and training for students and career changers." />
+  <title>A. Srinivas · Architect · Mentor · Trainer</title>
 
-  <!-- Preconnect for Google Fonts performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -19,35 +18,35 @@
 <body>
 
   <!-- =====================================================================
-       HEADER / NAV
+       HEADER
   ====================================================================== -->
   <header class="site-header" role="banner">
     <div class="container header-inner">
       <span class="logo" aria-label="A. Srinivas">AS</span>
       <nav aria-label="Primary navigation">
-        <a href="#about" class="nav-link">About</a>
-        <a href="#expertise" class="nav-link">Expertise</a>
+        <a href="#about"    class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#expertise" class="nav-link">Skills</a>
         <a
           href="https://www.linkedin.com/in/a-srinivas-a7b07b104/"
           class="nav-link nav-link--linkedin"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Visit A. Srinivas on LinkedIn (opens in new tab)"
-        >
-          LinkedIn ↗
-        </a>
+        >LinkedIn ↗</a>
       </nav>
     </div>
   </header>
 
-  <!-- =====================================================================
-       HERO SECTION
-  ====================================================================== -->
   <main id="main-content">
+
+    <!-- ===================================================================
+         HERO
+    ==================================================================== -->
     <section id="about" class="hero section" aria-labelledby="hero-heading">
       <div class="container hero-grid">
 
-        <!-- Left: headshot -->
+        <!-- Headshot -->
         <div class="hero-photo-wrap" aria-hidden="true">
           <div class="hero-photo-ring">
             <img
@@ -62,36 +61,38 @@
           </div>
         </div>
 
-        <!-- Right: copy + CTAs -->
+        <!-- Copy + CTAs -->
         <div class="hero-copy">
-          <p class="hero-eyebrow">Enterprise Architect</p>
+          <p class="hero-eyebrow">Enterprise Architect &amp; Mentor</p>
           <h1 id="hero-heading" class="hero-name">A. Srinivas</h1>
           <p class="hero-lead">
-            I help organisations design resilient, cloud-native platforms and
-            translate complex technical strategy into measurable business outcomes.
+            19 years turning complex technology into clear outcomes — for Fortune-scale
+            enterprises, India's growing small businesses, and every developer or student
+            who wants to level up faster.
           </p>
 
+          <!-- Audience pills — anchor to service cards -->
+          <ul class="hero-pills" aria-label="Who I work with">
+            <li><a href="#svc-smb"      class="pill">Small Businesses</a></li>
+            <li><a href="#svc-support"  class="pill">Working Professionals</a></li>
+            <li><a href="#svc-training" class="pill">Students &amp; Career Shifters</a></li>
+          </ul>
+
           <div class="hero-ctas">
-            <!-- Primary CTA: Consult toggle -->
             <button
               id="consult-btn"
               class="btn btn--primary"
               aria-expanded="false"
               aria-controls="contact-panel"
-            >
-              Consult
-            </button>
+            >Consult</button>
 
-            <!-- Secondary CTA: LinkedIn -->
             <a
-              href="https://www.linkedin.com/in/a-srinivas-a7b07b104"
+              href="https://www.linkedin.com/in/a-srinivas-a7b07b104/"
               class="btn btn--secondary"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Connect on LinkedIn (opens in new tab)"
-            >
-              LinkedIn ↗
-            </a>
+            >LinkedIn ↗</a>
           </div>
         </div>
 
@@ -99,41 +100,196 @@
     </section>
 
     <!-- ===================================================================
-         STAT CARDS (infographics)
-    =================================================================== -->
-    <section id="expertise" class="stats section" aria-label="Key stats and expertise areas">
+         TRUST STATS  (float-up on scroll)
+    ==================================================================== -->
+    <section class="stats section" aria-label="Key numbers">
       <div class="container stats-grid">
 
         <article class="stat-card" aria-label="19 plus years of experience">
           <div class="stat-icon" aria-hidden="true">⏱</div>
           <p class="stat-number">19+</p>
-          <p class="stat-label">Years Experience</p>
+          <p class="stat-label">Years in Industry</p>
           <p class="stat-sub">Enterprise architecture &amp; delivery</p>
         </article>
 
-        <article class="stat-card" aria-label="Cloud and AI specialisation">
-          <div class="stat-icon" aria-hidden="true">☁</div>
-          <p class="stat-number">Cloud · AI</p>
-          <p class="stat-label">Core Domains</p>
-          <p class="stat-sub">AWS · Azure · GCP · GenAI</p>
+        <article class="stat-card" aria-label="Three areas of service">
+          <div class="stat-icon" aria-hidden="true">🎯</div>
+          <p class="stat-number">3</p>
+          <p class="stat-label">Service Areas</p>
+          <p class="stat-sub">Business · Professionals · Learners</p>
         </article>
 
-        <article class="stat-card" aria-label="Workshops delivered">
+        <article class="stat-card" aria-label="Workshops and training sessions">
           <div class="stat-icon" aria-hidden="true">🎓</div>
           <p class="stat-number">50+</p>
-          <p class="stat-label">Workshops</p>
-          <p class="stat-sub">Architecture reviews &amp; enablement</p>
+          <p class="stat-label">Workshops &amp; Sessions</p>
+          <p class="stat-sub">Architecture · Cloud · Career guidance</p>
         </article>
 
       </div>
     </section>
 
     <!-- ===================================================================
-         SKILLS
-    =================================================================== -->
-    <section class="skills section" aria-label="Skills and technologies">
+         SERVICES  — three distinct audience cards
+    ==================================================================== -->
+    <section id="services" class="services section" aria-labelledby="services-heading">
       <div class="container">
-        <h2 class="section-heading">What I work with</h2>
+        <p class="section-eyebrow">What I do</p>
+        <h2 id="services-heading" class="section-heading">Pick the path that fits you</h2>
+        <p class="section-sub">
+          Whether you run a shop, just joined a tech team, or are mapping out a career
+          change — each engagement is shaped around your situation, not a template.
+        </p>
+
+        <div class="services-grid">
+
+          <!-- ── Card 1: SMB Solutions ── -->
+          <article id="svc-smb" class="svc-card" aria-labelledby="svc-smb-title">
+            <div class="svc-card__icon" aria-hidden="true">🏪</div>
+            <div class="svc-card__tag">For Small Businesses · India</div>
+            <h3 id="svc-smb-title" class="svc-card__title">
+              Technology that actually fits your business
+            </h3>
+            <p class="svc-card__body">
+              Most IT vendors sell small businesses solutions built for corporations.
+              I start with your problem — inventory, billing, customer reach, or
+              operations — and design something proportionate and affordable.
+            </p>
+            <ul class="svc-card__list" aria-label="Included in this service">
+              <li>Current-state audit — what you have and what's slowing you down</li>
+              <li>Lean cloud or software solution design (no over-engineering)</li>
+              <li>Vendor selection guidance &amp; implementation oversight</li>
+              <li>Ongoing advisory — you keep the relationship, not a ticket system</li>
+            </ul>
+            <p class="svc-card__ideal">
+              <strong>Good fit:</strong> Retail, logistics, services, or manufacturing
+              businesses in India with 5–200 employees looking to modernise without
+              burning budget.
+            </p>
+            <button
+              class="btn btn--primary svc-cta"
+              data-service="Small Business Solutions"
+              aria-controls="contact-panel"
+            >Discuss my business →</button>
+          </article>
+
+          <!-- ── Card 2: On-Job Support ── -->
+          <article id="svc-support" class="svc-card svc-card--featured" aria-labelledby="svc-support-title">
+            <div class="svc-card__badge">Most Requested</div>
+            <div class="svc-card__icon" aria-hidden="true">💻</div>
+            <div class="svc-card__tag">For Working Professionals</div>
+            <h3 id="svc-support-title" class="svc-card__title">
+              On-the-job support when the work gets real
+            </h3>
+            <p class="svc-card__body">
+              Being thrown into a new role — or a new team — with no senior guidance is
+              more common than it should be. I give you the architecture perspective your
+              manager assumes you already have.
+            </p>
+            <ul class="svc-card__list" aria-label="Included in this service">
+              <li>1-on-1 sessions around your live work problems</li>
+              <li>Code &amp; design reviews with actionable feedback</li>
+              <li>Architecture decision guidance (ADRs, trade-off analysis)</li>
+              <li>Interview and promotion prep — how to communicate design clearly</li>
+            </ul>
+            <p class="svc-card__ideal">
+              <strong>Good fit:</strong> Developers, tech leads, or recently promoted
+              architects at 1–5 years experience who want a senior sounding board
+              without the politics of asking a colleague.
+            </p>
+            <button
+              class="btn btn--primary svc-cta"
+              data-service="On-Job Support"
+              aria-controls="contact-panel"
+            >Get support →</button>
+          </article>
+
+          <!-- ── Card 3: Training ── -->
+          <article id="svc-training" class="svc-card" aria-labelledby="svc-training-title">
+            <div class="svc-card__icon" aria-hidden="true">🚀</div>
+            <div class="svc-card__tag">For Students &amp; Career Shifters ← Primary</div>
+            <h3 id="svc-training-title" class="svc-card__title">
+              From where you are to where tech is hiring
+            </h3>
+            <p class="svc-card__body">
+              The gap between college or your current role and a cloud/architecture career
+              is smaller than it looks — if you learn the right things in the right order.
+              I've seen what enterprises actually hire for, and I'll close that gap with you.
+            </p>
+            <ul class="svc-card__list" aria-label="Included in this service">
+              <li>Structured curriculum: Cloud fundamentals → Solution design → Real projects</li>
+              <li>Hands-on labs on AWS / Azure — no death by PowerPoint</li>
+              <li>Resume, LinkedIn, and portfolio review aligned to current hiring patterns</li>
+              <li>Mock interviews &amp; system design walkthroughs</li>
+              <li>Small cohorts (max 8) so questions actually get answered</li>
+            </ul>
+            <p class="svc-card__ideal">
+              <strong>Good fit:</strong> Final-year students, recent graduates, or
+              professionals in non-tech roles (banking, ops, QA) targeting a cloud or
+              architecture career within 6–12 months.
+            </p>
+            <button
+              class="btn btn--primary svc-cta"
+              data-service="Training & Career Shift"
+              aria-controls="contact-panel"
+            >Start learning →</button>
+          </article>
+
+        </div><!-- /.services-grid -->
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         HOW IT WORKS  — removes the "ivory tower" impression
+    ==================================================================== -->
+    <section class="process section" aria-labelledby="process-heading">
+      <div class="container">
+        <p class="section-eyebrow">The process</p>
+        <h2 id="process-heading" class="section-heading">Simple from the first message</h2>
+        <ol class="process-steps" role="list">
+          <li class="process-step">
+            <span class="process-step__num" aria-hidden="true">01</span>
+            <div class="process-step__body">
+              <h3 class="process-step__title">Tell me about your situation</h3>
+              <p class="process-step__text">
+                Fill out the form below or email directly. No intake questionnaire,
+                no scheduling maze — just a plain description of where you are and
+                what you need.
+              </p>
+            </div>
+          </li>
+          <li class="process-step">
+            <span class="process-step__num" aria-hidden="true">02</span>
+            <div class="process-step__body">
+              <h3 class="process-step__title">A free 30-minute discovery call</h3>
+              <p class="process-step__text">
+                I ask the awkward questions early so there are no surprises later.
+                You leave knowing whether we're a fit — and with at least one useful
+                idea regardless.
+              </p>
+            </div>
+          </li>
+          <li class="process-step">
+            <span class="process-step__num" aria-hidden="true">03</span>
+            <div class="process-step__body">
+              <h3 class="process-step__title">Scoped engagement, no lock-in</h3>
+              <p class="process-step__text">
+                Work is structured in clear phases. You can pause, extend, or
+                stop — no long-term contracts forced on short-term problems.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         SKILLS
+    ==================================================================== -->
+    <section id="expertise" class="skills section" aria-label="Skills and technologies">
+      <div class="container">
+        <p class="section-eyebrow">Background</p>
+        <h2 class="section-heading">What I bring to the table</h2>
         <ul class="chip-list" role="list">
           <li class="chip">Enterprise Architecture</li>
           <li class="chip">Cloud Strategy</li>
@@ -141,22 +297,24 @@
           <li class="chip">Azure</li>
           <li class="chip">GCP</li>
           <li class="chip">AI / ML Platforms</li>
-          <li class="chip">Digital Transformation</li>
           <li class="chip">Solution Design</li>
           <li class="chip">TOGAF</li>
           <li class="chip">Microservices</li>
           <li class="chip">DevSecOps</li>
           <li class="chip">Data Governance</li>
           <li class="chip">API Strategy</li>
-          <li class="chip">Stakeholder Alignment</li>
+          <li class="chip">Digital Transformation</li>
+          <li class="chip">SMB Tech Advisory</li>
+          <li class="chip">Career Mentoring</li>
+          <li class="chip">System Design Interviews</li>
           <li class="chip">Technical Due Diligence</li>
         </ul>
       </div>
     </section>
 
     <!-- ===================================================================
-         CONTACT PANEL (hidden until Consult is clicked)
-    =================================================================== -->
+         CONTACT PANEL  (hidden; revealed by Consult or any service CTA)
+    ==================================================================== -->
     <section
       id="contact-panel"
       class="contact section"
@@ -166,28 +324,21 @@
       <div class="container contact-inner">
 
         <div class="contact-intro">
-          <h2 class="section-heading">Let's talk architecture</h2>
+          <h2 class="section-heading">Let's talk</h2>
           <p class="contact-lead">
-            Whether you're evaluating a cloud migration, planning a platform
-            modernisation, or need an independent architecture review — I'm here
-            to help. Send a message or reach out directly.
+            Tell me which service fits your situation and what you're working with.
+            I read every message personally and reply within one business day.
           </p>
           <a
             href="mailto:contact.asrinivas.consulting@gmail.com"
             class="contact-email"
             aria-label="Email A. Srinivas directly"
-          >
-            contact.asrinivas.consulting@gmail.com
-          </a>
-
-          <!-- Mailto fallback button -->
+          >contact.asrinivas.consulting@gmail.com</a>
           <a
             href="mailto:contact.asrinivas.consulting@gmail.com?subject=Consultation%20Request"
             class="btn btn--outline"
-            aria-label="Open email client to contact A. Srinivas"
-          >
-            Open in Email Client
-          </a>
+            aria-label="Open email client"
+          >Open in Email Client</a>
         </div>
 
         <!-- Formspree form -->
@@ -199,44 +350,47 @@
           novalidate
           aria-label="Consultation request form"
         >
-          <!-- Hidden subject field for Formspree -->
-          <input type="hidden" name="_subject" value="Consultation Request via srinivas.consulting" />
+          <input type="hidden" name="_subject" value="Consultation Request — srinivas.consulting" />
 
           <div class="form-group">
             <label for="f-name" class="form-label">Your Name</label>
             <input
-              type="text"
-              id="f-name"
-              name="name"
+              type="text" id="f-name" name="name"
               class="form-input"
-              placeholder="Jane Smith"
-              required
-              autocomplete="name"
+              placeholder="Ravi Kumar"
+              required autocomplete="name"
             />
           </div>
 
           <div class="form-group">
             <label for="f-email" class="form-label">Email Address</label>
             <input
-              type="email"
-              id="f-email"
-              name="email"
+              type="email" id="f-email" name="email"
               class="form-input"
-              placeholder="jane@example.com"
-              required
-              autocomplete="email"
+              placeholder="ravi@example.com"
+              required autocomplete="email"
             />
           </div>
 
+          <!-- Service selector — pre-filled when arriving via a service CTA -->
           <div class="form-group">
-            <label for="f-message" class="form-label">How can I help?</label>
+            <label for="f-service" class="form-label">I'm interested in…</label>
+            <select id="f-service" name="service" class="form-input form-select" required>
+              <option value="" disabled selected>Select a service</option>
+              <option value="Small Business Solutions">Small Business Solutions</option>
+              <option value="On-Job Support">On-Job Support for Professionals</option>
+              <option value="Training & Career Shift">Training &amp; Career Shift</option>
+              <option value="Not sure yet">Not sure yet — help me figure it out</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="f-message" class="form-label">Tell me about your situation</label>
             <textarea
-              id="f-message"
-              name="message"
+              id="f-message" name="message"
               class="form-input form-textarea"
-              placeholder="Describe your challenge or project briefly…"
-              rows="5"
-              required
+              placeholder="Where are you now and what are you trying to achieve?"
+              rows="5" required
             ></textarea>
           </div>
 
@@ -246,9 +400,8 @@
             </button>
           </div>
 
-          <!-- Inline form status messages -->
           <p id="form-success" class="form-status form-status--success" role="status" aria-live="polite" hidden>
-            Thanks! I'll be in touch within one business day.
+            Sent. I'll be in touch within one business day.
           </p>
           <p id="form-error" class="form-status form-status--error" role="alert" aria-live="assertive" hidden>
             Something went wrong. Please email me directly.
@@ -265,18 +418,13 @@
   ====================================================================== -->
   <footer class="site-footer" role="contentinfo">
     <div class="container footer-inner">
-      <p class="footer-copy">
-        &copy; <span id="year"></span> A. Srinivas. All rights reserved.
-      </p>
+      <p class="footer-copy">&copy; <span id="year"></span> A. Srinivas. All rights reserved.</p>
       <a
         href="https://www.linkedin.com/in/a-srinivas-a7b07b104/"
         class="footer-link"
-        target="_blank"
-        rel="noopener noreferrer"
+        target="_blank" rel="noopener noreferrer"
         aria-label="LinkedIn profile (opens in new tab)"
-      >
-        LinkedIn
-      </a>
+      >LinkedIn</a>
     </div>
   </footer>
 
