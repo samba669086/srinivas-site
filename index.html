@@ -3,15 +3,175 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="A. Srinivas — Enterprise Architect. Cloud solutions for small businesses, on-the-job support for working professionals, and training for students and career changers." />
-  <title>A. Srinivas · Architect · Mentor · Trainer</title>
 
+  <!-- ═══ PRIMARY SEO META ═══════════════════════════════════════════════ -->
+  <!--
+    Title formula: Primary keyword | Brand name
+    62 chars — within Google's ~60-65 char display limit
+  -->
+  <title>Enterprise Architect &amp; Cloud Consultant India | A. Srinivas</title>
+
+  <!--
+    Meta description: answers "what do you do and for whom" in 155 chars.
+    Includes primary keywords for all 4 service lines.
+  -->
+  <meta name="description"
+    content="Freelance enterprise architect in India — cloud strategy for enterprises, IT solutions for small businesses, on-job support for professionals, and cloud career training for students." />
+
+  <!-- Canonical — prevents duplicate-content issues on GitHub Pages -->
+  <link rel="canonical" href="https://samba669086.github.io/srinivas-site/" />
+
+  <!-- ═══ OPEN GRAPH (LinkedIn / WhatsApp / Facebook previews) ═════════ -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://samba669086.github.io/srinivas-site/" />
+  <meta property="og:title"       content="Enterprise Architect &amp; Cloud Consultant India | A. Srinivas" />
+  <meta property="og:description" content="Freelance enterprise architect — cloud strategy, IT solutions for SMBs, on-job support, and cloud career training. Two decades of enterprise delivery." />
+  <meta property="og:image"       content="https://samba669086.github.io/srinivas-site/headshot.jpg" />
+  <meta property="og:locale"      content="en_IN" />
+  <meta property="og:site_name"   content="A. Srinivas — Enterprise Architect" />
+
+  <!-- ═══ TWITTER CARD ════════════════════════════════════════════════ -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Enterprise Architect &amp; Cloud Consultant India | A. Srinivas" />
+  <meta name="twitter:description" content="Freelance enterprise architect — cloud strategy, SMB IT solutions, on-job support, cloud career training. India." />
+  <meta name="twitter:image"       content="https://samba669086.github.io/srinivas-site/headshot.jpg" />
+
+  <!-- ═══ ADDITIONAL SIGNALS ══════════════════════════════════════════ -->
+  <meta name="author"   content="A. Srinivas" />
+  <meta name="robots"   content="index, follow, max-snippet:-1, max-image-preview:large" />
+  <meta name="keywords" content="enterprise architect India, freelance cloud architect, cloud consultant India, IT solutions small business India, on job support IT professionals, cloud architecture training India, career shift to cloud, solution architect mentor, AWS Azure GCP consultant India, GenAI consultant India" />
+
+  <!-- ═══ SCHEMA MARKUP — JSON-LD ═════════════════════════════════════ -->
+  <!--
+    1. Person schema  — establishes Srinivas as a known entity
+    2. ProfessionalService schema — tells Google this is a service page
+    3. FAQPage schema — earns FAQ rich results on SERP (more real estate)
+  -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://samba669086.github.io/srinivas-site/#person",
+        "name": "A. Srinivas",
+        "jobTitle": "Enterprise Architect & Cloud Consultant",
+        "description": "Freelance enterprise architect with two decades of experience in cloud strategy, solution design, GenAI adoption, SMB IT advisory, and cloud career training in India.",
+        "url": "https://samba669086.github.io/srinivas-site/",
+        "image": "https://samba669086.github.io/srinivas-site/headshot.jpg",
+        "sameAs": ["https://www.linkedin.com/in/a-srinivas-a7b07b104/"],
+        "email": "contact.asrinivas.consulting@gmail.com",
+        "knowsAbout": [
+          "Enterprise Architecture","Cloud Strategy","AWS","Azure","GCP",
+          "GenAI","Solution Design","TOGAF","Kubernetes","Terraform",
+          "Platform Engineering","FinOps","MLOps","System Design"
+        ],
+        "address": { "@type": "PostalAddress", "addressCountry": "IN" }
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://samba669086.github.io/srinivas-site/#service",
+        "name": "A. Srinivas — Enterprise Architecture & Cloud Consulting",
+        "description": "Freelance enterprise architecture consulting for large enterprises and scale-ups, cloud IT solutions for small businesses in India, on-job support for IT professionals, and cloud architecture training for students and career changers.",
+        "url": "https://samba669086.github.io/srinivas-site/",
+        "provider": { "@id": "https://samba669086.github.io/srinivas-site/#person" },
+        "areaServed": { "@type": "Country", "name": "India" },
+        "serviceType": [
+          "Enterprise Architecture Consulting",
+          "Freelance Cloud Architect",
+          "IT Solutions for Small Business",
+          "On-Job Support for IT Professionals",
+          "Cloud Architecture Training",
+          "Career Shift to Cloud Mentoring"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Enterprise & Freelance Architecture Consulting",
+              "description": "Senior freelance architect for enterprises and scale-ups — cloud strategy, GenAI adoption, architecture reviews, and CTO advisory on a project or retainer basis."
+            },
+            {
+              "@type": "Offer",
+              "name": "IT Solutions for Small Businesses in India",
+              "description": "Lean cloud and software solutions designed for small and medium businesses in India — proportionate, affordable, and built around real operational problems."
+            },
+            {
+              "@type": "Offer",
+              "name": "On-Job Support for IT Professionals",
+              "description": "1-on-1 architecture mentoring and live work support for developers, tech leads, and new architects navigating complex real-world projects."
+            },
+            {
+              "@type": "Offer",
+              "name": "Cloud Architecture Training & Career Shift Program",
+              "description": "Structured training for students and professionals shifting to a cloud or solution architecture career — hands-on labs, system design, and placement prep."
+            }
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What does a freelance enterprise architect do?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A freelance enterprise architect designs cloud and technology strategies, conducts architecture reviews, evaluates vendors, and guides digital transformation — without the overhead of a full-time hire or a large consulting firm. They plug into a company's team for a defined project, retainer, or interim period."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can a small business in India afford cloud architecture consulting?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Unlike enterprise consulting firms, an independent architect can scope work specifically to a small business's budget and problem — no bloated retainers, no solutions built for enterprises that don't fit a 20-person team. Engagements start with a free 30-minute discovery call."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is on-job support for IT professionals?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "On-job support is 1-on-1 mentoring built around your live work — not generic tutorials. A senior architect reviews your actual designs, answers questions about real projects, and helps you make the decisions your manager expects you to handle independently."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to shift career to cloud architecture in India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "With structured training covering cloud fundamentals, solution design, and hands-on AWS/Azure labs, most motivated learners are interview-ready within 6 to 12 months. The timeline depends on your current background — developers move faster, non-tech professionals may need the full 12 months."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you offer GenAI and agentic AI consulting?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. GenAI and agentic AI adoption is one of the fastest-growing areas of enterprise demand. Services include production-ready RAG pipeline design, LLM integration architecture, AI platform strategy, and GenAI readiness assessments for enterprises and scale-ups."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I get started?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Click 'Consult' or any service card button on this page, select the service that fits your situation, and send a message. Every enquiry is read personally and gets a reply within one business day. There is also a free 30-minute discovery call before any paid engagement begins."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -22,17 +182,17 @@
   ====================================================================== -->
   <header class="site-header" role="banner">
     <div class="container header-inner">
-      <span class="logo" aria-label="A. Srinivas">AS</span>
+      <!-- Brand treated as text — helps Google associate name with domain -->
+      <span class="logo" aria-label="A. Srinivas — Enterprise Architect">AS</span>
       <nav aria-label="Primary navigation">
         <a href="#about"    class="nav-link">About</a>
         <a href="#services" class="nav-link">Services</a>
+        <a href="#faq"      class="nav-link">FAQ</a>
         <a href="#expertise" class="nav-link">Skills</a>
-        <a
-          href="https://www.linkedin.com/in/a-srinivas-a7b07b104/"
-          class="nav-link nav-link--linkedin"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Visit A. Srinivas on LinkedIn (opens in new tab)"
+        <a href="https://www.linkedin.com/in/a-srinivas-a7b07b104/"
+           class="nav-link nav-link--linkedin"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="Visit A. Srinivas on LinkedIn (opens in new tab)"
         >LinkedIn ↗</a>
       </nav>
     </div>
@@ -42,57 +202,62 @@
 
     <!-- ===================================================================
          HERO
+         H1 contains primary keyword: "Enterprise Architect" + location signal "India"
     ==================================================================== -->
     <section id="about" class="hero section" aria-labelledby="hero-heading">
       <div class="container hero-grid">
 
-        <!-- Headshot -->
         <div class="hero-photo-wrap" aria-hidden="true">
           <div class="hero-photo-ring">
             <img
               id="headshot"
               src="headshot.jpg"
-              alt="Portrait of A. Srinivas, Enterprise Architect"
+              alt="A. Srinivas — Freelance Enterprise Architect and Cloud Consultant based in India"
               class="hero-photo"
-              loading="lazy"
+              loading="eager"
               width="320"
               height="320"
+              fetchpriority="high"
             />
           </div>
         </div>
 
-        <!-- Copy + CTAs -->
         <div class="hero-copy">
-          <p class="hero-eyebrow">Enterprise Architect &amp; Mentor</p>
+          <!-- Eyebrow reinforces keyword cluster for Google's NLP -->
+          <p class="hero-eyebrow">Freelance Enterprise Architect · India</p>
+
+          <!--
+            H1: brand name + primary keyword in natural language.
+            Google reads this as the page topic.
+          -->
           <h1 id="hero-heading" class="hero-name">A. Srinivas</h1>
+
+          <!--
+            Lead: all four service keywords appear naturally —
+            "enterprise architect", "small businesses", "on-job support",
+            "cloud architecture training"
+          -->
           <p class="hero-lead">
-            Two decades turning complex technology into clear outcomes — for Fortune-scale
-            enterprises, India's growing small businesses, and every developer or student
-            who wants to level up faster.
+            Two decades turning complex technology into clear outcomes.
+            I work as a <strong>freelance enterprise architect</strong> for large organisations,
+            design practical <strong>cloud solutions for small businesses</strong> in India,
+            provide <strong>on-job support to IT professionals</strong> navigating real projects,
+            and run <strong>cloud architecture training</strong> for students and career changers.
           </p>
 
-          <!-- Audience pills — anchor to service cards -->
           <ul class="hero-pills" aria-label="Who I work with">
             <li><a href="#svc-enterprise" class="pill">Enterprises &amp; Scale-ups</a></li>
-            <li><a href="#svc-smb"        class="pill">Small Businesses</a></li>
-            <li><a href="#svc-support"    class="pill">Working Professionals</a></li>
+            <li><a href="#svc-smb"        class="pill">Small Businesses · India</a></li>
+            <li><a href="#svc-support"    class="pill">IT Professionals</a></li>
             <li><a href="#svc-training"   class="pill">Students &amp; Career Shifters</a></li>
           </ul>
 
           <div class="hero-ctas">
-            <button
-              id="consult-btn"
-              class="btn btn--primary"
-              aria-expanded="false"
-              aria-controls="contact-panel"
-            >Consult</button>
-
-            <a
-              href="https://www.linkedin.com/in/a-srinivas-a7b07b104/"
-              class="btn btn--secondary"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Connect on LinkedIn (opens in new tab)"
+            <button id="consult-btn" class="btn btn--primary"
+              aria-expanded="false" aria-controls="contact-panel">Consult</button>
+            <a href="https://www.linkedin.com/in/a-srinivas-a7b07b104/"
+               class="btn btn--secondary" target="_blank" rel="noopener noreferrer"
+               aria-label="Connect with A. Srinivas on LinkedIn (opens in new tab)"
             >LinkedIn ↗</a>
           </div>
         </div>
@@ -101,180 +266,211 @@
     </section>
 
     <!-- ===================================================================
-         TRUST STATS  (float-up on scroll)
+         TRUST STATS
     ==================================================================== -->
-    <section class="stats section" aria-label="Key numbers">
+    <section class="stats section" aria-label="Key numbers and credentials">
       <div class="container stats-grid">
 
-        <article class="stat-card" aria-label="Two decades of experience">
+        <article class="stat-card" aria-label="Two decades of enterprise architecture experience">
           <div class="stat-icon" aria-hidden="true">⏱</div>
           <p class="stat-number">20+</p>
           <p class="stat-label">Years in Industry</p>
-          <p class="stat-sub">Enterprise architecture &amp; delivery</p>
+          <p class="stat-sub">Enterprise architecture &amp; cloud delivery</p>
         </article>
 
-        <article class="stat-card" aria-label="Four areas of service">
+        <article class="stat-card" aria-label="Four service areas covering enterprises, SMBs, professionals and learners">
           <div class="stat-icon" aria-hidden="true">🎯</div>
           <p class="stat-number">4</p>
           <p class="stat-label">Service Areas</p>
           <p class="stat-sub">Enterprise · SMB · Professionals · Learners</p>
         </article>
 
-        <article class="stat-card" aria-label="Workshops and training sessions">
+        <article class="stat-card" aria-label="Over 50 architecture workshops and training sessions delivered">
           <div class="stat-icon" aria-hidden="true">🎓</div>
           <p class="stat-number">50+</p>
           <p class="stat-label">Workshops &amp; Sessions</p>
-          <p class="stat-sub">Architecture · Cloud · Career guidance</p>
+          <p class="stat-sub">Cloud architecture · System design · Career guidance</p>
         </article>
 
       </div>
     </section>
 
     <!-- ===================================================================
-         SERVICES  — three distinct audience cards
+         SERVICES
+         Each H3 contains a long-tail keyword for its service line.
+         The section H2 uses "services" — a strong on-page signal.
     ==================================================================== -->
     <section id="services" class="services section" aria-labelledby="services-heading">
       <div class="container">
-        <p class="section-eyebrow">What I do</p>
-        <h2 id="services-heading" class="section-heading">Pick the path that fits you</h2>
+        <p class="section-eyebrow">Services</p>
+        <!--
+          H2 keyword: "cloud architecture services India" cluster
+        -->
+        <h2 id="services-heading" class="section-heading">
+          Cloud &amp; Architecture Services in India
+        </h2>
         <p class="section-sub">
           Whether you lead architecture at a large enterprise, run a growing business,
-          just joined a tech team, or are mapping out a career change — each engagement
+          just joined a tech team, or are mapping out a career change — every engagement
           is shaped around your situation, not a template.
         </p>
 
         <div class="services-grid">
 
-          <!-- ── Card 1: Enterprise Freelance Consulting ── -->
+          <!-- ── CARD 1: Enterprise Freelance Consulting ──────────────── -->
+          <!--
+            Target keywords:
+            - "freelance enterprise architect India"
+            - "independent cloud architect consultant"
+            - "hire freelance solution architect"
+            - "contract enterprise architect"
+          -->
           <article id="svc-enterprise" class="svc-card" aria-labelledby="svc-enterprise-title">
             <div class="svc-card__icon" aria-hidden="true">🏢</div>
             <div class="svc-card__tag">For Enterprises &amp; Scale-ups</div>
             <h3 id="svc-enterprise-title" class="svc-card__title">
-              Senior architecture capacity — without the headcount
+              Freelance Enterprise Architect for Hire
             </h3>
             <p class="svc-card__body">
               Hiring a full-time Principal Architect takes months and costs a full salary.
-              Engaging a consulting firm means layers of account management before any
-              real work happens. I plug in as a senior freelance architect — quickly,
-              directly, and with two decades of enterprise delivery behind every decision.
+              Engaging a large consulting firm means layers of account management before
+              any real work happens. As an <strong>independent enterprise architect</strong>,
+              I plug in directly — on a project, retainer, or interim basis — with two
+              decades of enterprise cloud delivery behind every recommendation.
             </p>
-            <ul class="svc-card__list" aria-label="Included in this service">
+            <ul class="svc-card__list" aria-label="What is included">
               <li>Cloud &amp; platform strategy — roadmaps that survive board scrutiny</li>
               <li>Architecture reviews, RFP evaluation &amp; vendor selection</li>
-              <li>GenAI &amp; agentic AI adoption — pragmatic, production-ready design</li>
+              <li>GenAI &amp; agentic AI adoption — production-ready design, not demos</li>
               <li>Team augmentation during peak delivery or digital transformation</li>
-              <li>CTO / CIO advisory — translating architecture into business language</li>
+              <li>CTO / CIO advisory — translating architecture decisions into business language</li>
             </ul>
             <p class="svc-card__ideal">
               <strong>Good fit:</strong> Mid-to-large enterprises, funded scale-ups, or
-              system integrators that need an experienced independent architect on a
-              project, retainer, or interim basis — without a long-term hire.
+              system integrators needing a senior <strong>contract architect</strong> without a
+              long-term hire commitment.
             </p>
-            <button
-              class="btn btn--primary svc-cta"
-              data-service="Enterprise Consulting"
-              aria-controls="contact-panel"
+            <button class="btn btn--primary svc-cta"
+              data-service="Enterprise Consulting" aria-controls="contact-panel"
             >Discuss an engagement →</button>
           </article>
 
-          <!-- ── Card 2: SMB Solutions ── -->
+          <!-- ── CARD 2: SMB Solutions ─────────────────────────────────── -->
+          <!--
+            Target keywords:
+            - "IT solutions for small business India"
+            - "cloud consultant for small business India"
+            - "technology solutions SMB India"
+            - "IT advisor small business India"
+          -->
           <article id="svc-smb" class="svc-card" aria-labelledby="svc-smb-title">
             <div class="svc-card__icon" aria-hidden="true">🏪</div>
             <div class="svc-card__tag">For Small Businesses · India</div>
             <h3 id="svc-smb-title" class="svc-card__title">
-              Technology that actually fits your business
+              IT Solutions for Small Businesses in India
             </h3>
             <p class="svc-card__body">
-              Most IT vendors sell small businesses solutions built for corporations.
-              I start with your problem — inventory, billing, customer reach, or
-              operations — and design something proportionate and affordable.
+              Most IT vendors sell small businesses solutions built for corporations —
+              expensive, over-engineered, and hard to maintain without a dedicated team.
+              I design <strong>technology solutions proportionate to your business</strong>:
+              your problem, your budget, your team size.
             </p>
-            <ul class="svc-card__list" aria-label="Included in this service">
-              <li>Current-state audit — what you have and what's slowing you down</li>
+            <ul class="svc-card__list" aria-label="What is included">
+              <li>Current-state audit — find what's slowing you down before spending anything</li>
               <li>Lean cloud or software solution design (no over-engineering)</li>
-              <li>Vendor selection guidance &amp; implementation oversight</li>
-              <li>Ongoing advisory — you keep the relationship, not a ticket system</li>
+              <li>Vendor selection &amp; implementation oversight</li>
+              <li>Ongoing advisory relationship — not a ticket queue</li>
             </ul>
             <p class="svc-card__ideal">
               <strong>Good fit:</strong> Retail, logistics, services, or manufacturing
-              businesses in India with 5–200 employees looking to modernise without
-              burning budget.
+              businesses in India with 5–200 employees looking to modernise operations
+              without burning budget on enterprise-grade complexity.
             </p>
-            <button
-              class="btn btn--primary svc-cta"
-              data-service="Small Business Solutions"
-              aria-controls="contact-panel"
+            <button class="btn btn--primary svc-cta"
+              data-service="Small Business Solutions" aria-controls="contact-panel"
             >Discuss my business →</button>
           </article>
 
-          <!-- ── Card 3: On-Job Support ── -->
+          <!-- ── CARD 3: On-Job Support ────────────────────────────────── -->
+          <!--
+            Target keywords:
+            - "on job support IT professionals India"
+            - "architecture mentoring for developers"
+            - "solution architect mentor India"
+            - "tech lead mentoring cloud architecture"
+          -->
           <article id="svc-support" class="svc-card svc-card--featured" aria-labelledby="svc-support-title">
             <div class="svc-card__badge">Most Requested</div>
             <div class="svc-card__icon" aria-hidden="true">💻</div>
             <div class="svc-card__tag">For Working Professionals</div>
             <h3 id="svc-support-title" class="svc-card__title">
-              On-the-job support when the work gets real
+              On-Job Support &amp; Architecture Mentoring
             </h3>
             <p class="svc-card__body">
-              Being thrown into a new role — or a new team — with no senior guidance is
-              more common than it should be. I give you the architecture perspective your
-              manager assumes you already have.
+              Being promoted into an architecture role — or onboarded to a complex project —
+              with no senior guidance is more common than it should be. <strong>On-job
+              support</strong> means a senior architect available for your real work, not
+              generic tutorials: your actual code, your live designs, your current decisions.
             </p>
-            <ul class="svc-card__list" aria-label="Included in this service">
-              <li>1-on-1 sessions around your live work problems</li>
-              <li>Code &amp; design reviews with actionable feedback</li>
-              <li>Architecture decision guidance (ADRs, trade-off analysis)</li>
-              <li>Interview and promotion prep — how to communicate design clearly</li>
+            <ul class="svc-card__list" aria-label="What is included">
+              <li>1-on-1 sessions structured around your live projects and blockers</li>
+              <li>Code &amp; design reviews with specific, actionable feedback</li>
+              <li>Architecture decision records (ADRs) and trade-off analysis support</li>
+              <li>Interview prep, promotion pitching, and technical communication coaching</li>
             </ul>
             <p class="svc-card__ideal">
               <strong>Good fit:</strong> Developers, tech leads, or recently promoted
-              architects at 1–5 years experience who want a senior sounding board
+              architects (1–5 years experience) who want a senior sounding board
               without the politics of asking a colleague.
             </p>
-            <button
-              class="btn btn--primary svc-cta"
-              data-service="On-Job Support"
-              aria-controls="contact-panel"
+            <button class="btn btn--primary svc-cta"
+              data-service="On-Job Support" aria-controls="contact-panel"
             >Get support →</button>
           </article>
 
-          <!-- ── Card 4: Training ── -->
+          <!-- ── CARD 4: Training ──────────────────────────────────────── -->
+          <!--
+            Target keywords:
+            - "cloud architecture training India"
+            - "career shift to cloud architect India"
+            - "solution architect training for beginners"
+            - "AWS Azure training career change India"
+          -->
           <article id="svc-training" class="svc-card" aria-labelledby="svc-training-title">
             <div class="svc-card__icon" aria-hidden="true">🚀</div>
-            <div class="svc-card__tag">For Students &amp; Career Shifters ← Primary</div>
+            <div class="svc-card__tag">For Students &amp; Career Shifters · Primary Service</div>
             <h3 id="svc-training-title" class="svc-card__title">
-              From where you are to where tech is hiring
+              Cloud Architecture Training &amp; Career Shift Program
             </h3>
             <p class="svc-card__body">
-              The gap between college or your current role and a cloud/architecture career
-              is smaller than it looks — if you learn the right things in the right order.
-              I've seen what enterprises actually hire for, and I'll close that gap with you.
+              The gap between where you are now and a <strong>cloud or solution architecture
+              career</strong> is smaller than most training platforms make it look — if you
+              learn the right things in the right order. I've spent two decades inside
+              enterprises. I know exactly what they hire for, and I'll close that gap with you.
             </p>
-            <ul class="svc-card__list" aria-label="Included in this service">
+            <ul class="svc-card__list" aria-label="What is included">
               <li>Structured curriculum: Cloud fundamentals → Solution design → Real projects</li>
-              <li>Hands-on labs on AWS / Azure — no death by PowerPoint</li>
+              <li>Hands-on labs on AWS &amp; Azure — no death by PowerPoint</li>
               <li>Resume, LinkedIn, and portfolio review aligned to current hiring patterns</li>
-              <li>Mock interviews &amp; system design walkthroughs</li>
-              <li>Small cohorts (max 8) so questions actually get answered</li>
+              <li>System design mock interviews and architecture walkthroughs</li>
+              <li>Small cohorts (max 8) so every question gets a real answer</li>
             </ul>
             <p class="svc-card__ideal">
               <strong>Good fit:</strong> Final-year students, recent graduates, or
-              professionals in non-tech roles (banking, ops, QA) targeting a cloud or
-              architecture career within 6–12 months.
+              professionals in non-tech roles (banking, ops, QA) targeting a
+              <strong>cloud architecture job in India</strong> within 6–12 months.
             </p>
-            <button
-              class="btn btn--primary svc-cta"
-              data-service="Training & Career Shift"
-              aria-controls="contact-panel"
+            <button class="btn btn--primary svc-cta"
+              data-service="Training & Career Shift" aria-controls="contact-panel"
             >Start learning →</button>
           </article>
 
-        </div><!-- /.services-grid -->
+        </div>
       </div>
     </section>
 
     <!-- ===================================================================
-         HOW IT WORKS  — removes the "ivory tower" impression
+         HOW IT WORKS
     ==================================================================== -->
     <section class="process section" aria-labelledby="process-heading">
       <div class="container">
@@ -295,11 +491,11 @@
           <li class="process-step">
             <span class="process-step__num" aria-hidden="true">02</span>
             <div class="process-step__body">
-              <h3 class="process-step__title">A free 30-minute discovery call</h3>
+              <h3 class="process-step__title">Free 30-minute discovery call</h3>
               <p class="process-step__text">
-                I ask the awkward questions early so there are no surprises later.
-                You leave knowing whether we're a fit — and with at least one useful
-                idea regardless.
+                I ask the important questions early so there are no surprises later.
+                You leave with clarity on whether we are a fit — and at least one
+                useful idea regardless.
               </p>
             </div>
           </li>
@@ -320,20 +516,17 @@
     <!-- ===================================================================
          SKILLS
     ==================================================================== -->
-    <section id="expertise" class="skills section" aria-label="Skills and technologies">
+    <section id="expertise" class="skills section" aria-labelledby="skills-heading">
       <div class="container">
         <p class="section-eyebrow">Background</p>
-        <h2 class="section-heading">What I bring to the table</h2>
-        <ul class="chip-list" role="list">
-          <!-- Core competencies — always relevant -->
+        <h2 id="skills-heading" class="section-heading">What I bring to the table</h2>
+        <ul class="chip-list" role="list" aria-label="Skills and technologies">
           <li class="chip">Enterprise Architecture</li>
           <li class="chip">Solution Design</li>
           <li class="chip">Cloud Strategy</li>
           <li class="chip">Digital Transformation</li>
           <li class="chip">TOGAF</li>
           <li class="chip">Technical Due Diligence</li>
-
-          <!-- Cloud platforms — top hiring demand India 2026 -->
           <li class="chip">AWS</li>
           <li class="chip">Azure</li>
           <li class="chip">GCP</li>
@@ -342,14 +535,10 @@
           <li class="chip">Platform Engineering</li>
           <li class="chip">FinOps &amp; Cloud Cost Optimisation</li>
           <li class="chip">Cloud Security</li>
-
-          <!-- AI — fastest growing demand segment -->
           <li class="chip">GenAI &amp; LLM Integration</li>
           <li class="chip">Agentic AI</li>
           <li class="chip">RAG Pipelines</li>
           <li class="chip">MLOps</li>
-
-          <!-- Mentoring & career shift audience -->
           <li class="chip">System Design</li>
           <li class="chip">Career Mentoring</li>
           <li class="chip">SMB Tech Advisory</li>
@@ -358,86 +547,139 @@
     </section>
 
     <!-- ===================================================================
-         CONTACT PANEL  (hidden; revealed by Consult or any service CTA)
+         FAQ  — powers FAQPage rich result on Google SERP
+         H2 keyword: "frequently asked questions"
     ==================================================================== -->
-    <section
-      id="contact-panel"
-      class="contact section"
-      aria-hidden="true"
-      aria-label="Contact and consultation form"
-    >
+    <section id="faq" class="faq section" aria-labelledby="faq-heading">
+      <div class="container">
+        <p class="section-eyebrow">FAQ</p>
+        <h2 id="faq-heading" class="section-heading">Frequently Asked Questions</h2>
+        <dl class="faq-list">
+
+          <div class="faq-item">
+            <dt class="faq-question">What does a freelance enterprise architect do?</dt>
+            <dd class="faq-answer">
+              A freelance enterprise architect designs cloud and technology strategies,
+              conducts architecture reviews, evaluates vendors, and guides digital
+              transformation — without the overhead of a full-time hire or a large
+              consulting firm. Engagements are scoped to a project, retainer, or
+              interim period, which means you get senior expertise exactly when you
+              need it and nothing more.
+            </dd>
+          </div>
+
+          <div class="faq-item">
+            <dt class="faq-question">Can a small business in India afford cloud consulting?</dt>
+            <dd class="faq-answer">
+              Yes. Unlike enterprise consulting firms, an independent architect scopes
+              work to your actual budget and problem. No bloated retainers, no solutions
+              built for a 5,000-person enterprise being sold to a 20-person team.
+              Every engagement starts with a free 30-minute discovery call — no commitment.
+            </dd>
+          </div>
+
+          <div class="faq-item">
+            <dt class="faq-question">What is on-job support for IT professionals?</dt>
+            <dd class="faq-answer">
+              On-job support is 1-on-1 mentoring built around your live work — not
+              generic courses. A senior architect reviews your actual designs, helps
+              you navigate real project decisions, and gives you the architecture
+              perspective your manager assumes you already have.
+            </dd>
+          </div>
+
+          <div class="faq-item">
+            <dt class="faq-question">How long does a career shift to cloud architecture take in India?</dt>
+            <dd class="faq-answer">
+              With a structured program covering cloud fundamentals, solution design,
+              and hands-on AWS/Azure labs, most motivated learners are interview-ready
+              within 6 to 12 months. Developers and those with some IT background move
+              faster; professionals shifting from non-tech roles like banking or
+              operations typically need the full 12 months.
+            </dd>
+          </div>
+
+          <div class="faq-item">
+            <dt class="faq-question">Do you offer GenAI and agentic AI consulting?</dt>
+            <dd class="faq-answer">
+              Yes. GenAI adoption is one of the fastest-growing areas of enterprise
+              demand right now. Services include RAG pipeline design, LLM integration
+              architecture, AI platform strategy, and agentic AI readiness assessments —
+              all scoped for production deployment, not just prototypes.
+            </dd>
+          </div>
+
+          <div class="faq-item">
+            <dt class="faq-question">How do I get started?</dt>
+            <dd class="faq-answer">
+              Click <strong>Consult</strong> at the top of this page or any service card button,
+              select the service that fits, and describe your situation briefly. Every
+              message is read personally and gets a reply within one business day.
+            </dd>
+          </div>
+
+        </dl>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         CONTACT PANEL
+    ==================================================================== -->
+    <section id="contact-panel" class="contact section"
+      aria-hidden="true" aria-label="Consultation request form">
       <div class="container contact-inner">
 
         <div class="contact-intro">
-          <h2 class="section-heading">Let's talk</h2>
+          <h2 class="section-heading">Start the conversation</h2>
           <p class="contact-lead">
             Tell me which service fits your situation and what you're working with.
             I read every message personally and reply within one business day.
           </p>
-          <a
-            href="mailto:asrinivas.consulting@gmail.com"
-            class="contact-email"
-            aria-label="Email A. Srinivas directly"
-          >contact:asrinivas.consulting@gmail.com</a>
-          <a
-            href="mailto:asrinivas.consulting@gmail.com?subject=Consultation%20Request"
-            class="btn btn--outline"
-            aria-label="Open email client"
+          <a href="mailto:contact.asrinivas.consulting@gmail.com"
+             class="contact-email" aria-label="Email A. Srinivas directly"
+          >contact.asrinivas.consulting@gmail.com</a>
+          <a href="mailto:contact.asrinivas.consulting@gmail.com?subject=Consultation%20Request"
+             class="btn btn--outline" aria-label="Open email client to contact A. Srinivas"
           >Open in Email Client</a>
         </div>
 
-        <!-- Formspree form -->
-        <form
-          id="contact-form"
-          class="contact-form"
-          action="https://formspree.io/f/mbgrjpvl"
-          method="POST"
-          novalidate
-          aria-label="Consultation request form"
-        >
-          <input type="hidden" name="_subject" value="Consultation Request — srinivas.consulting" />
+        <form id="contact-form" class="contact-form"
+          action="https://formspree.io/f/mbgrjpvl" method="POST"
+          novalidate aria-label="Consultation request form">
+
+          <input type="hidden" name="_subject"
+            value="Consultation Request — srinivas.consulting" />
 
           <div class="form-group">
             <label for="f-name" class="form-label">Your Name</label>
-            <input
-              type="text" id="f-name" name="name"
-              class="form-input"
-              placeholder="Ravi Kumar"
-              required autocomplete="name"
-            />
+            <input type="text" id="f-name" name="name" class="form-input"
+              placeholder="Ravi Kumar" required autocomplete="name" />
           </div>
 
           <div class="form-group">
             <label for="f-email" class="form-label">Email Address</label>
-            <input
-              type="email" id="f-email" name="email"
-              class="form-input"
-              placeholder="ravi@example.com"
-              required autocomplete="email"
-            />
+            <input type="email" id="f-email" name="email" class="form-input"
+              placeholder="ravi@example.com" required autocomplete="email" />
           </div>
 
-          <!-- Service selector — pre-filled when arriving via a service CTA -->
           <div class="form-group">
             <label for="f-service" class="form-label">I'm interested in…</label>
-            <select id="f-service" name="service" class="form-input form-select" required>
+            <select id="f-service" name="service"
+              class="form-input form-select" required>
               <option value="" disabled selected>Select a service</option>
               <option value="Enterprise Consulting">Enterprise / Freelance Consulting</option>
-              <option value="Small Business Solutions">Small Business Solutions</option>
+              <option value="Small Business Solutions">IT Solutions for Small Business</option>
               <option value="On-Job Support">On-Job Support for Professionals</option>
-              <option value="Training & Career Shift">Training &amp; Career Shift</option>
+              <option value="Training & Career Shift">Cloud Architecture Training &amp; Career Shift</option>
               <option value="Not sure yet">Not sure yet — help me figure it out</option>
             </select>
           </div>
 
           <div class="form-group">
             <label for="f-message" class="form-label">Tell me about your situation</label>
-            <textarea
-              id="f-message" name="message"
-              class="form-input form-textarea"
+            <textarea id="f-message" name="message" class="form-input form-textarea"
               placeholder="Where are you now and what are you trying to achieve?"
-              rows="5" required
-            ></textarea>
+              rows="5" required></textarea>
           </div>
 
           <div class="form-actions">
@@ -446,10 +688,12 @@
             </button>
           </div>
 
-          <p id="form-success" class="form-status form-status--success" role="status" aria-live="polite" hidden>
+          <p id="form-success" class="form-status form-status--success"
+            role="status" aria-live="polite" hidden>
             Sent. I'll be in touch within one business day.
           </p>
-          <p id="form-error" class="form-status form-status--error" role="alert" aria-live="assertive" hidden>
+          <p id="form-error" class="form-status form-status--error"
+            role="alert" aria-live="assertive" hidden>
             Something went wrong. Please email me directly.
           </p>
         </form>
@@ -460,16 +704,17 @@
   </main>
 
   <!-- =====================================================================
-       FOOTER
+       FOOTER — includes address for local SEO signal
   ====================================================================== -->
   <footer class="site-footer" role="contentinfo">
     <div class="container footer-inner">
-      <p class="footer-copy">&copy; <span id="year"></span> A. Srinivas. All rights reserved.</p>
-      <a
-        href="https://www.linkedin.com/in/a-srinivas-a7b07b104/"
-        class="footer-link"
-        target="_blank" rel="noopener noreferrer"
-        aria-label="LinkedIn profile (opens in new tab)"
+      <p class="footer-copy">
+        &copy; <span id="year"></span> A. Srinivas · Enterprise Architect · India.
+        All rights reserved.
+      </p>
+      <a href="https://www.linkedin.com/in/a-srinivas-a7b07b104/"
+         class="footer-link" target="_blank" rel="noopener noreferrer"
+         aria-label="A. Srinivas LinkedIn profile (opens in new tab)"
       >LinkedIn</a>
     </div>
   </footer>
